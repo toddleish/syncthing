@@ -224,6 +224,8 @@
       </div>
     </div>
 
+    <div ng-if="config.options != undefined" ng-include="'syncthing/core/notifications.html'"></div>
+
     <!-- First regular row -->
 
     <div class="row">
@@ -640,6 +642,7 @@
   <script src="syncthing/core/modalDirective.js"></script>
   <script src="syncthing/core/naturalFilter.js"></script>
   <script src="syncthing/core/networkErrorDialogDirective.js"></script>
+  <script src="syncthing/core/notificationDirective.js"></script>
   <script src="syncthing/core/pathIsSubDirDirective.js"></script>
   <script src="syncthing/core/popoverDirective.js"></script>
   <script src="syncthing/core/restartingDialogDirective.js"></script>
