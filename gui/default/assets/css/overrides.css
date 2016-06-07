@@ -431,7 +431,14 @@ h6 {
 
 .nav label:hover { opacity: 1; }
 
-.nav .next { right: 0; }
+.nav .next { 
+	right: 0; 
+	top: 120px;
+}
+
+.nav .prev { 
+	top: 120px;
+}
 
 input:checked + .slide-container  .slide {
     opacity: 1;
@@ -460,12 +467,12 @@ input:checked + .slide-container .nav label { display: block; }
 	position: relative;
 	border-radius: 100%;
 	display: inline-block;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(140, 137, 137, 1);
 }
 
 .nav-dots .nav-dot:hover {
 	cursor: pointer;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(154, 79, 29, 1);
 }
 
 input#img-1:checked ~ .nav-dots label#img-dot-1,
@@ -474,5 +481,5 @@ input#img-3:checked ~ .nav-dots label#img-dot-3,
 input#img-4:checked ~ .nav-dots label#img-dot-4,
 input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
-	background: rgba(0, 0, 0, 0.8);
+	background: #D87432;
 }
